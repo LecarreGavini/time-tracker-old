@@ -3,6 +3,7 @@ import { BrowserRouter } from 'react-router-dom'
 import Router from './routes/Router'
 import Layout from 'pages/layout/Layout'
 import 'antd/dist/antd.less'
+import './app.scss'
 
 function App() {
 	return (

@@ -1,16 +1,13 @@
 import { Layout } from 'antd'
+import './layout.scss'
 
-const { Header, Footer, Content } = Layout
+const { Content } = Layout
 
 const MWLayout = ({ children }) => {
 	return (
-		<div>
-			<Layout>
-				<Header>Header</Header>
-				<Content>{children}</Content>
-				<Footer>Footer</Footer>
-			</Layout>
-		</div>
+		<Layout className='tmw-layout'>
+			<Content>{children}</Content>
+		</Layout>
 	)
 }
 

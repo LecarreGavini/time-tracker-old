@@ -1,0 +1,68 @@
+{
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"editor.minimap.enabled": false,
+	"workbench.activityBar.visible": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"todohighlight.isEnable": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"terminal.integrated.fontSize": 12,
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 12,
+	"breadcrumbs.enabled": false,
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript, typescript, json, markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.arrowParens": "avoid",
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"prettier.trailingComma": "all",
+	"prettier.useTabs": true,
+	"prettier.semi": false,
+	"eslint.validate": [
+		"vue",
+		"html",
+		"javascript",
+		"typescript",
+		"javascriptreact",
+		"typescriptreact"
+	],
+	"eslint.format.enable": true,
+	"editor.wordWrap": "on",
+	"emmet.includeLanguages": {
+		"typescript": "javascriptreact",
+		"javascript": "javascriptreact",
+		"vue-html": "html",
+		"razor": "html",
+		"plaintext": "pug"
+	},
+	"workbench.startupEditor": "newUntitledFile",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+	"files.watcherExclude": {
+		"**/.bloop": true,
+		"**/.metals": true,
+		"**/.ammonite": true
+	},
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"editor.unicodeHighlight.allowedLocales": {
+		"es": true
+	},
+
+	"cSpell.words": ["Gavini", "Lecarre"]
+}

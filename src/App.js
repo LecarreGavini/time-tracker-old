@@ -1,8 +1,15 @@
-import React from 'react'
-import 'antd/dist/antd.css'
+import { Suspense } from 'react'
+import { BrowserRouter } from 'react-router-dom'
+import Router from './routes/Router'
 
 function App() {
-	return <div className='App'></div>
+	return (
+		<BrowserRouter>
+			<Suspense fallback={<div>Loading...</div>}>
+				<Router />
+			</Suspense>
+		</BrowserRouter>
+	)
 }
 
 export default App

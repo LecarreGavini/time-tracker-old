@@ -5,8 +5,8 @@ const { Content } = Layout
 
 const MWLayout = ({ children }) => {
 	return (
-		<Layout className='tmw-layout'>
-			<Content className='tmw-content'>{children}</Content>
+		<Layout className='mw-layout'>
+			<Content className='mw-content'>{children}</Content>
 		</Layout>
 	)
 }

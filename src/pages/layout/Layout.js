@@ -6,7 +6,7 @@ const { Content } = Layout
 const MWLayout = ({ children }) => {
 	return (
 		<Layout className='tmw-layout'>
-			<Content>{children}</Content>
+			<Content className='tmw-content'>{children}</Content>
 		</Layout>
 	)
 }
